@@ -1,4 +1,4 @@
-# Lesson 101 : Snake
+# Snake
 
 from tkinter import *
 import random
