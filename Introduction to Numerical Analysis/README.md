@@ -1,0 +1,1 @@
+The details of the assignments and their corresponding results can be check in my personal website : [**Introduction to Numerical Analysis (Assignment)**](https://hackmd.io/uwn4aO1VTa6XYs6nD3GdHQ?both#Introduction-to-Numerical-Analysis-Assignment).
