@@ -15,7 +15,7 @@ One should train a DNN model with the train dataset and lables, and then classif
   * Tuned hyperparameters (optimizers, learning rate, batch size...)
   * Tuned structure of DNN (dropout, batch normaliztion, activation function, layer...)
   * Two steps of training :
-    *  500 epochs with lr=1.00E-04
+    *  500 epochs with lr=1.00E-04 (Save the model as HW2_28_model.ckpt)
     *  200 epochs with lr=1.00E-06
 ### Result
 * Public: 0.74694, Private: 0.74678 (Strong Baseline for Public/Private: 0.76023/0.76118)
