@@ -21,3 +21,4 @@ One should train a DNN model with the train dataset and lables, and then classif
 * Public: 0.74694, Private: 0.74678 (Strong Baseline for Public/Private: 0.76023/0.76118)
 * The results are still slight worse than strong baseline. 
 * I will temporarily continue to other HWs and update the result of this assignment while finding out the methods improving the model. 
+### Kaggle Link: https://www.kaggle.com/c/ml2021spring-hw2/overview
