@@ -32,6 +32,6 @@
 * Resnet18 (pretrained) model + *data augmentation* + semi-supervised learning gives the (public/private) score: 0.81481/0.82665.
 
 <img src="https://i.imgur.com/2geeRrr.png" width=50%>
-              The accuracy of training and validation sets
+ $$The accuracy of training and validation sets$$
 
 * Possible improvement methods: ***self-supervised learning*** or ***essemble method***. 
