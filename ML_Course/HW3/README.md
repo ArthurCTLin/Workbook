@@ -35,3 +35,16 @@
  
 
 * Possible improvement methods: ***self-supervised learning*** or ***essemble method***. 
+
+### Reference
+* Source code provided by Course TA : https://colab.research.google.com/github/ga642381/ML2021-Spring/blob/main/HW03/HW03.ipynb
+* Data Augmentation: 
+    * https://pytorch.org/vision/stable/transforms.html
+    * https://blog.csdn.net/flyfish1986/article/details/108831332
+    * https://chih-sheng-huang821.medium.com/03-pytorch-dataaug-a712a7a7f55e
+    * https://arxiv.org/abs/2002.05709
+* Semi-supervised:
+    * https://speech.ee.ntu.edu.tw/~tlkagk/courses/ML_2016/Lecture/semi%20(v3).pdf
+    * https://github.com/yassouali/awesome-semi-supervised-learning
+* Models
+    * https://pytorch.org/vision/stable/models.html
