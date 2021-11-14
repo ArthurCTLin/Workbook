@@ -31,7 +31,7 @@
 * The well-known models (Resnet-18/50/101 and EfficientNet-b0/b6) without pre-trained gives slight better results (acc: 0.6~6.5) but took much time to be stable.
 * Resnet18 (pretrained) model + *data augmentation* + semi-supervised learning gives the (public/private) score: 0.81481/0.82665.
 
-$\qquad \qquad \qquad \qquad$ <img src="https://i.imgur.com/2geeRrr.png" width=50%>
-$\qquad \qquad \qquad \qquad \quad$ The accuracy of training and validation sets
+<img src="https://i.imgur.com/2geeRrr.png" width=50%>
+The accuracy of training and validation sets
 
 * Possible improvement methods: ***self-supervised learning*** or ***essemble method***. 
