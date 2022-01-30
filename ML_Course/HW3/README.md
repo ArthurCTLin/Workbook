@@ -1,7 +1,12 @@
-### Targets
+## Homework 3 from [***Machine Learning***](https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.html)
+* **Professor :** Hung-Yi, Lee
+* **Objectives :**
   * Solve image classification with convolutional neural networks.
   * **Data Augmentation :** Take advantage of `torchvision.transforms` to process existing images and create more usable data.
   * **Semi-supervised Learning :** Understand how to utilize unlabeled data and how it benefits.
+* **Description of HW :** https://speech.ee.ntu.edu.tw/~hylee/ml/ml2021-course-data/hw/HW03/HW03.pdf
+* **Kaggle Link :** https://www.kaggle.com/c/ml2021spring-hw3
+
 ### Task & Data
 * Task: Food Classification
 * Data:
