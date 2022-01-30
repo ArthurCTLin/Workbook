@@ -57,8 +57,8 @@
 * BreakTrough:
   * Medium Baseline
     * Increased n_model and dim_feedforward to 200 and 1024. (Made the model more complex) (Public, Private): (0.92904,	0.92166)
-    * Increased n_model(200) + Conformer (Public, Private): (0.95142,	0.95111) $\rightarrow$ close to strong baseline.
-    * Increased n_model(256) + dim_feedforward(1024) + Attention Pooling (Public, Private): (0.94547,	0.94833) $\rightarrow$ close to strong baseline and faster than applying Conformer.
+    * Increased n_model(200) + Conformer (Public, Private): (0.95142,	0.95111) -> close to strong baseline.
+    * Increased n_model(256) + dim_feedforward(1024) + Attention Pooling (Public, Private): (0.94547,	0.94833) -> close to strong baseline and faster than applying Conformer.
    * Strong Baseline 
     * Increased n_model(256) + Conformer (Public, Private): (0.95476	0.95666)
 
