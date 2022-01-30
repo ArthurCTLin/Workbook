@@ -64,7 +64,7 @@
 
 ***Note :*** The combination of conformer + Attention Pooling gives score(Public, Private): (0.95285	0.95500) which doesn't pass strong baseline.
 
-* Possible improvement method: ***essemble method***. 
+* Possible improvement method: ***Additive margin softmax*** or ***Essemble method***. 
 
 ### Reference
 * Source code provided by Course TA : https://colab.research.google.com/github/ga642381/ML2021-Spring/blob/main/HW04/HW04.ipynb
