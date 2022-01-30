@@ -1,7 +1,12 @@
-### Targets
+## Homework 4 from [***Machine Learning***](https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.html)
+* **Professor :** Hung-Yi, Lee
+* **Objectives :**
   * Learn how to use Transformer
   * Solve multiclass classification problem with Transformer (Predict speaker class from given speech)
   * Optimize the performance with Conformer.
+* **Description of HW :** https://speech.ee.ntu.edu.tw/~hylee/ml/ml2021-course-data/hw/HW04/HW04.pdf
+* **Kaggle Link :** https://www.kaggle.com/c/ml2021spring-hw4
+
 ### Task & Data
 * Task: Speaker Classification
 * Data
