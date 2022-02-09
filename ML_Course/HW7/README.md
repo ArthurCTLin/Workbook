@@ -78,7 +78,7 @@
         * Change pretrained model
         from `bert-base-chinese` to `luhua/chinese_pretrain_mrc_roberta_wwm_ext_large`
         * Tuned learning rate: 1.00E-04 -> 1.00E-05
-* ***Noting: To obtained above results, there are many trials had been tested and I had just selected and shown the most meaningful results.***
+* ***Noting: To obtain above results, many trials had been tested and I had just selected and shown the most meaningful results.***
 * Possible improvement methods: ***essemble method***. 
 
 
