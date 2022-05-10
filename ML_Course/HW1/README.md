@@ -16,5 +16,6 @@ predict the percentage of new tested positive cases in the 3rd day.
   * Tuned structure of DNN (dropout, batch normaliztion, activation function, layer...)
 ### Result
 * Public: 0.88153, Private: 0.89477 (Strong Baseline for Public/Private: 0.88017/0.89266)
+![image](https://user-images.githubusercontent.com/29924598/167692239-83968769-cbe4-44d7-a430-996ce29ac8fd.png)
 * The results are still slight worse than strong baseline. 
 (However, in order not to get a biased model, I just stopped while there is no obvious overfitting  issue.)
