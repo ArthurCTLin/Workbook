@@ -17,29 +17,35 @@ predict the percentage of new tested positive cases in the 3rd day.
   * Tuned hyperparameters (optimizers, learning rate, batch size...)
   * Tuned structure of DNN (dropout, batch normaliztion, activation function, layer...)
 ### Result
-* Public: 0.88153, Private: 0.89477 (Strong Baseline for Public/Private: 0.88017/0.89266)
+Since the criterion is based on the RMSE, the smaller error stands for the better performance of prediction.
+Professor had set the simple/medium/strong baseline to judge our model.
+* Baseline (Public/Private)
+  * Strong: 0.88017/0.89266
+  * Medium: 1.28359/1.36937 
+  * Simple: 2.03004/2.04826
+* My result: (0.88153/0.89477)
 * The results are still slight worse than strong baseline.
 ---
 ### Review & Retry (2022/5/10)
 This time, I had modified and re-tuned the hyperparameters based on previous trials and much deeper understanding of ML. The code is shown in the **COVID_19_Prediction_v2.ipynb**.
 * **Modification :**
- * MSE $\rightarrow$ RMSE
+  * MSE $\rightarrow$ RMSE
 * **Feature Extraction**
- * Selected useful features with ***SelectBest***
- * Tuned the number of features. 
+  * Selected useful features with ***SelectBest***
+  * Tuned the number of features. 
 * **Hyperparameters Tuning:**
- * Ratio of training/validation dataset = 15:1 ~ 20:1
- * Batch_size = 16, 32, 64, 256, 512
- * Optimizer = SGD, Adam, AdamW
-  * Learning rate = 0.00005 ~ 0.005
-  * weight_decay (L2 regularization) : 0.0005 ~ 0.005
+  * Ratio of training/validation dataset = 15:1 ~ 20:1
+  * Batch_size = 16, 32, 64, 256, 512
+  * Optimizer = SGD, Adam, AdamW
+    * Learning rate = 0.00005 ~ 0.005
+    * weight_decay (L2 regularization) : 0.0005 ~ 0.005
  * **DNN structure:**
-  * Number of layer(s) = 1, 2
-  * dropout: 0.1 ~ 0.5
-  * batch_normalization
-  * activation function: Sigmoid, ReLU, LeakyReLU(0.1~0.5), SELU
-  * neurons in hidden layers: 16, 32, 64, 128
+   * Number of layer(s) = 1, 2
+   * dropout: 0.1 ~ 0.5
+   * batch_normalization
+   * activation function: Sigmoid, ReLU, LeakyReLU(0.1~0.5), SELU
+   * neurons in hidden layers: 16, 32, 64, 128
+
+***Final Result:***
+Result: 0.87831/0.89132 (pass strong baseline (0.88017/0.89266))
 <img src="https://i.imgur.com/rXGpYh4.png" width=60%>
-![image](https://user-images.githubusercontent.com/29924598/167692239-83968769-cbe4-44d7-a430-996ce29ac8fd.png)
-
-
