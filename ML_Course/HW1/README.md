@@ -1,5 +1,4 @@
-### Task description
-* COVID-19 Cases Prediction
+### COVID-19 Cases Prediction
 * Given survey results in the past 3 days in a specific state in U.S., then
 predict the percentage of new tested positive cases in the 3rd day.
 * Other detailed information can be check in the **HW01.pdf**
@@ -47,5 +46,6 @@ This time, I had modified and re-tuned the hyperparameters based on previous tri
    * neurons in hidden layers: 16, 32, 64, 128
 
 ***Final Result:***
+
 Result: 0.87831/0.89132 (pass strong baseline (0.88017/0.89266))
 <img src="https://i.imgur.com/rXGpYh4.png" width=60%>
