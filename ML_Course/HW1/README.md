@@ -28,7 +28,7 @@ Professor had set the simple/medium/strong baseline to judge our model.
 ### Review & Retry (2022/5/10)
 This time, I had modified and re-tuned the hyperparameters based on previous trials and much deeper understanding of ML. The code is shown in the **COVID_19_Prediction_v2.ipynb**.
 * **Modification :**
-  * MSE $$\rightarrow$$ RMSE
+  * MSE &rarr; RMSE
 * **Feature Extraction**
   * Selected useful features with ***SelectBest***
   * Tuned the number of features. 
